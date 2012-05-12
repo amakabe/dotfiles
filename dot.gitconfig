@@ -1,0 +1,12 @@
+[user]
+	name = amakabe
+	email = amakabe@livedoor.com
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+	grep = auto
+[core]
+	pager = lv -c
+	editor = "vim -c 'set fenc=utf-8'"
