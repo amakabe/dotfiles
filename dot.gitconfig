@@ -10,3 +10,13 @@
 [core]
 	pager = lv -c
 	editor = "vim -c 'set fenc=utf-8'"
+[alias]
+	ba = branch -a
+	br = branch
+	cancel = reset --soft HEAD^
+	co = checkout
+	df = diff
+	graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+	pr = remote prune
+	st = status
+	wdf = diff --color-words

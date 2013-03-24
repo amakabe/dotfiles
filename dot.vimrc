@@ -10,6 +10,7 @@ Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 Bundle 'bbommarito/vim-slim'
 Bundle 'unite-colorscheme'
+Bundle 'h1mesuke/unite-outline'
 
 if &encoding !=# 'utf-8'
   set encoding=japan
@@ -114,6 +115,7 @@ nnoremap <silent> ;f :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
 nnoremap <silent> ;r :<C-u>Unite -buffer-name=register register<CR>
 nnoremap <silent> ;m :<C-u>Unite file_mru<CR>
 nnoremap <silent> ;a :<C-u>UniteWithBufferDir -buffer-name=files buffer file_mru bookmark file<CR>
+nnoremap <silent> ;o :<C-u>Unite outline<CR>
 
 nmap <silent> eu :set fenc=utf-8<CR>
 nmap <silent> ee :set fenc=euc-jp<CR>
